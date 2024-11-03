@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Saver</title>
+    <style>
+      body {
+        width: calc(100% + 30px);
+        padding: 5px;
+        background-color: #DEEEFC;
+      }
+      #newFont {
+        width: 80%;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <h3>Custom Fonter</h3>
+      <hr>
+      <h4>Selected Font:  <span id="fontName"></span></h4>
+
+      <div id="newFont">
+        <input type="text" id="inputData" placeholder="Enter a new font name"/>
+        <button id="saveButton">Save</button>
+      </div>
+
+      <small id="reloadWarning" style="display: none;">Reload the page to see changes</small>
+      <small id="invalidFontWarning" style="display: none; color: red;">Invalid font</small>
+      <script src="/scripts/popup.js"></script>
+    </div>
+  </body>
+</html>
