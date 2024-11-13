@@ -126,7 +126,13 @@ const text_input_styles = `
     font-feature-settings: inherit;
   }
 `
-
+const keep_styles = `
+  .notranslate.IZ65Hb-YPqjbf.fmcmS-x3Eknd.h1U9Be-YPqjbf {
+    font-family: ${font} !important;
+    word-spacing: 0.15rem;
+    ${font_feature_settings}
+  }
+`
 
 
 // Collate Styles
@@ -134,7 +140,8 @@ const new_styles = [
     meta_com_styles,
     whatsapp_styles,
     messages_google_styles,
-    text_input_styles
+    text_input_styles,
+    keep_styles
 ].join('\n');
 
 const styleSheet = document.createElement("style");
