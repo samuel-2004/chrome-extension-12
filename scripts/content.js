@@ -108,7 +108,7 @@ const text_input_styles = `
   input[type=email],
   input[type=number],
   input[type=search],
-  [contenteditable],
+  [contenteditable="true"],
   textarea {
     font-family: ${font} !important;
     word-spacing: 0.15rem;
