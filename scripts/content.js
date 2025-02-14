@@ -100,6 +100,15 @@ const messages_google_styles = `
   }
 `
 
+    
+// Beeper
+const beeper_google_styles = `
+  ._2ey7aoQpE0hgvTfUhLOcQq span {
+    font-family: ${font} !important;
+    word-spacing: 0.15rem;
+    ${font_feature_settings}
+  }
+`
 
 
 // Generic text input boxes [When typing - Default on generic placeholder]
