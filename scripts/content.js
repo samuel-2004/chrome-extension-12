@@ -102,7 +102,7 @@ const messages_google_styles = `
 
     
 // Beeper
-const beeper_google_styles = `
+const beeper_styles = `
   ._2ey7aoQpE0hgvTfUhLOcQq span {
     font-family: ${font} !important;
     word-spacing: 0.15rem;
@@ -150,7 +150,8 @@ const new_styles = [
     whatsapp_styles,
     messages_google_styles,
     text_input_styles,
-    keep_styles
+    keep_styles,
+    beeper_styles
 ].join('\n');
 
 const styleSheet = document.createElement("style");
